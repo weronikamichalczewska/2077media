@@ -73,6 +73,10 @@ header{
 .menu-toggle > .fa-times{
     display: none;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+  }
 .nav-list{
     list-style: none;
     position: fixed;
@@ -140,8 +144,8 @@ header{
     display: flex;
     align-items: center;
     text-align: center;
+    background-attachment: fixed;
 }
-
 .headline{
     font-family: 'texgy', arial ,sans-serif;
     color: #FF00FF;
@@ -153,7 +157,6 @@ header{
     -webkit-background-clip: text;
 }
 /*---------------------End of Hero--------------------------*/
-/*Discover our story*/
 .global-headline{
     text-align: center;
     margin-top: 3.9rem;
@@ -250,6 +253,7 @@ header{
 .between-sections{
     background: url("/images/cyberpunk.jpg") center no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 /*E-sport*/
 .image-group{
@@ -453,7 +457,35 @@ footer{
     .social-icons i{
         opacity: 1;
     }
-    
+}
+
+@media screen and (min-width: 300px){
+    .headline{
+        font-size: 43px !important;
+    }
+    .sub-headline{
+        font-size: 50px !important;
+    }
+    .sub-headline2{
+        font-size: 50px !important;
+    }
+    .sub-headline3{
+        font-size: 50px !important;
+    }
+}
+@media screen and (min-width: 900px){
+    .headline{
+        font-size: 70.5px !important;
+    }
+    .sub-headline{
+        font-size: 6rem !important;
+    }
+    .sub-headline2{
+        font-size: 6rem !important;
+    }
+    .sub-headline3{
+        font-size: 6rem !important;
+    }
 }
 /* Animations*/
 @keyframes fadeUp{
