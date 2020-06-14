@@ -8,6 +8,14 @@ menuToggler.addEventListener('click', () =>{
     body.classList.toggle('open');
 });
 
+document.onclick = event => {
+    const target = event.target;
+
+    if(target.tagName.toLowerCase() === 'a'){
+        body.classList.remove('open');
+    }
+}
+
 //Scroll reveal
 window.sr = ScrollReveal();
 
