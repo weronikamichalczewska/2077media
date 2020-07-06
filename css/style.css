@@ -23,7 +23,7 @@ html{
 }
 body{
     overflow-x: hidden;
-    background-color: #121212;
+    background-color: #000;
 }
 section{
     padding: 3.9rem 0;
@@ -124,7 +124,7 @@ header{
 }
 .nav-link{
     display: block;
-    color: #FF00FF;
+    color: #fff;
     text-transform: uppercase;
     font-size: 1.6rem;
     letter-spacing: 2px;
@@ -152,7 +152,7 @@ header{
     font-size: 4vw;
     font-weight: 700;
     padding-bottom: 12px;
-    background: -webkit-linear-gradient(#FF00FF, #EBE8C3);
+    background: -webkit-linear-gradient(#FF00FF, #fff);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
