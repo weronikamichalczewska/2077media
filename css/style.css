@@ -255,13 +255,13 @@ header{
     background-size: cover;
     background-attachment: fixed;
 }
-/*E-sport*/
+/*Investing*/
 .image-group{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
 }
-.e-sport .description{
+.investing .description{
     padding-top: 2rem;
     margin-bottom: 0;
 }
@@ -278,7 +278,7 @@ header{
 .sub-headline3{
     font-size: 8.5rem;
     font-family: var(--secondary-font);
-    color: #CC00CC;
+    color: rgb(240, 57, 57);
     font-weight: 100;
     line-height: .4;
     letter-spacing: 2px;
@@ -287,10 +287,10 @@ header{
     animation-delay: .5s;
     padding-bottom: 40px;
 }
-/*---------------------End of E-sport------------------------*/
+/*---------------------End of Investing------------------------*/
 /*---------------------Fashion------------------------*/
 .headline-f{
-    color: rgb(240, 57, 57);
+    color: rgb(35, 187, 106);
     letter-spacing: .7rem;
     margin-right: -.7rem;
 }
